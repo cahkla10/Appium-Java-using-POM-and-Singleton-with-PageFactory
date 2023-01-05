@@ -112,13 +112,13 @@ Open this automation using Intellij IDEA.
 ```
 |-- test
 		|-- java
-            |-- helpers
+            			|-- helpers
 				|-- pages
 				|-- setups
 				|-- steps
 		|-- resources
 				|-- features
-            |-- app
+            			|-- app
 ```
 
 - `helpers` package for all helpers class for example TestRunner, CommonClass, etc.
