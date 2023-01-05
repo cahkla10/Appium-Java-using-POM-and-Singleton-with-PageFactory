@@ -129,4 +129,12 @@ Open this automation using Intellij IDEA.
 
 ## 8. Running Automation
 
-For running the automation, run it from TestRunner class.
+First Way:
+- Open TestRunner class and run it.
+
+Second Way:
+- Using terminal or cmd, type ```mvn test```
+
+Run and generate report:
+- ```mvn test site```
+- ```mvn surefire-report:report```
