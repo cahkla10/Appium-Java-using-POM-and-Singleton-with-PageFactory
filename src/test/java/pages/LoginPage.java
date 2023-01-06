@@ -61,6 +61,7 @@ public class LoginPage {
         for (WebElement err : errMessage){
             errMsg = err.getText();
             if(errMsg.equalsIgnoreCase(expected)){
+                System.out.println("Expected: " + expected);
                 assertEquals(expectedErrMsg,errMsg);
             }
             break;
