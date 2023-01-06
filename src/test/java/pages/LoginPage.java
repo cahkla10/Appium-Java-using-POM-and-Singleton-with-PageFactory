@@ -37,7 +37,7 @@ public class LoginPage {
     private List<WebElement> botImg;
 
     public void seeBotImg(){
-        if(botImg.size() >= 1){
+        if(botImg.size() > 0){
             System.out.println("Bot image is displayed!");
         }
     }
